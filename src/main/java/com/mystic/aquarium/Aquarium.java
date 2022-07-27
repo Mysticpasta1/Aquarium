@@ -1,6 +1,6 @@
 package com.mystic.aquarium;
 
-import com.mystic.aquarium.block.BlockInit;
+import com.mystic.aquarium.init.BlockInit;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 

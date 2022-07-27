@@ -9,11 +9,11 @@ import net.minecraft.util.math.Direction;
 
 import static net.minecraft.block.ChainBlock.WATERLOGGED;
 
-public class AquariumBlock extends FacingBlock implements Waterloggable {
+public class AquariumBlockMulti extends FacingBlock implements Waterloggable {
     private WaterType type;
 
-    public AquariumBlock(WaterType type) {
-        super(AbstractBlock.Settings.of(Material.GLASS).nonOpaque().requiresTool().strength(0.5f));
+    public AquariumBlockMulti(WaterType type) {
+        super(Settings.of(Material.GLASS).nonOpaque().requiresTool().strength(0.5f));
         setDefaultState(getDefaultState().with(WATERLOGGED, false).with(FACING, Direction.NORTH));
         this.type = type;
     }

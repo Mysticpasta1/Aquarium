@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,waterlogged=false": {
+      "model": "aquarium:blocks/salt_water_aquarium"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "aquarium:blocks/salt_water_aquarium_waterlogged"
+    },
+    "facing=east,waterlogged=false": {
+      "y": 90,
+      "model": "aquarium:blocks/salt_water_aquarium"
+    },
+    "facing=east,waterlogged=true": {
+      "y": 90,
+      "model": "aquarium:blocks/salt_water_aquarium_waterlogged"
+    },
+    "facing=south,waterlogged=false": {
+      "y": 180,
+      "model": "aquarium:blocks/salt_water_aquarium"
+    },
+    "facing=south,waterlogged=true": {
+      "y": 180,
+      "model": "aquarium:blocks/salt_water_aquarium_waterlogged"
+    },
+    "facing=west,waterlogged=false": {
+      "y": 270,
+      "model": "aquarium:blocks/salt_water_aquarium"
+    },
+    "facing=west,waterlogged=true": {
+      "y": 270,
+      "model": "aquarium:blocks/salt_water_aquarium_waterlogged"
+    }
+  }
+}

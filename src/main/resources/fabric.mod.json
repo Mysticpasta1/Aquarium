@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.mystic.aquarium.Aquarium"
+    ],
+    "client": [
+      "com.mystic.aquarium.client.AquariumClient"
     ]
   },
   "mixins": [

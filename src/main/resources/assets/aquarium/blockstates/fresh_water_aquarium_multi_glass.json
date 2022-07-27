@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": true
+      },
+      "apply": {"model": "aquarium:blocks/north_fish_tank_glass"}
+    },
+    {
+      "when": {
+        "east": true
+      },
+      "apply": {"model": "aquarium:blocks/east_fish_tank_glass"}
+    },
+    {
+      "when": {
+        "south": true
+      },
+      "apply": {"model": "aquarium:blocks/south_fish_tank_glass"}
+    },
+    {
+      "when": {
+        "west": true
+      },
+      "apply": {"model": "aquarium:blocks/west_fish_tank_glass"}
+    },
+    {
+      "when": {
+        "up": true
+      },
+      "apply": {"model": "aquarium:blocks/up_fish_tank_glass"}
+    },
+    {
+      "when": {
+        "down": true
+      },
+      "apply": {"model": "aquarium:blocks/bottom_fish_tank_glass"}
+    }
+  ]
+}

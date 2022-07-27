@@ -12,7 +12,6 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
 import static net.minecraft.block.ChainBlock.WATERLOGGED;
-import static net.minecraft.block.ConnectingBlock.*;
 import static net.minecraft.block.StairsBlock.FACING;
 
 public class AquariumBlockMulti extends Block implements Waterloggable {
@@ -42,6 +41,6 @@ public class AquariumBlockMulti extends Block implements Waterloggable {
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        super.appendProperties(builder.add(WATERLOGGED).add(FACING).add(DOWN).add(UP).add(NORTH).add(SOUTH).add(EAST).add(WEST));
+        super.appendProperties(builder.add(WATERLOGGED).add(FACING));
     }
 }

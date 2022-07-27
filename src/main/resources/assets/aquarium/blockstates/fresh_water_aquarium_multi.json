@@ -1,0 +1,1328 @@
+{
+  "variants": {
+    "down=false,east=false,facing=north,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=true,south=false,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=true,south=false,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=true,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=true,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=true,south=true,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=true,south=true,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=false,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=false,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=true,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=true,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=true,south=true,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=true,south=true,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=true,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=true,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=north,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=north,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=east,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=south,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=false,south=false,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=false,south=false,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=true,facing=west,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=false,south=true,up=false,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=false,south=true,up=false,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=false,south=false,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=false,south=false,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=true,up=true,waterlogged=false,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=true,up=true,waterlogged=true,west=true": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=north,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=north,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=north,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=north,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=north,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=north,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=east,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=east,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=east,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=east,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=east,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "y": 90,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=south,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=south,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=south,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=south,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=south,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=south,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "y": 180,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=true,east=false,facing=west,north=false,south=true,up=false,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=true,east=false,facing=west,north=false,south=true,up=false,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=true,facing=west,north=false,south=false,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=true,facing=west,north=false,south=false,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    },
+    "down=false,east=false,facing=west,north=false,south=true,up=true,waterlogged=false,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank"
+    },
+    "down=false,east=false,facing=west,north=false,south=true,up=true,waterlogged=true,west=false": {
+      "y": 270,
+      "model": "aquarium:blocks/multi/regular/full_side_fish_tank_waterlogged"
+    }
+  }
+}

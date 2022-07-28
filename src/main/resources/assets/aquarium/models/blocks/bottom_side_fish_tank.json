@@ -59,8 +59,8 @@
 		},
 		{
 			"name": "fish tank",
-			"from": [10, 3, 0],
-			"to": [10, 16, 11],
+			"from": [12, 3, 0],
+			"to": [12, 16, 11],
 			"faces": {
 				"north": {"uv": [0, 0, 0, 1.625], "texture": "#0"},
 				"east": {"uv": [4, 3.5, 5.375, 5.125], "texture": "#0"},
@@ -72,13 +72,41 @@
 		},
 		{
 			"name": "fish tank",
-			"from": [5, 3, 0],
-			"to": [5, 13, 11],
+			"from": [10, 3, 0],
+			"to": [10, 13, 11],
 			"faces": {
 				"north": {"uv": [0, 0, 0, 1.25], "texture": "#0"},
 				"east": {"uv": [2, 5.25, 3.375, 6.5], "texture": "#0"},
 				"south": {"uv": [0, 0, 0, 1.25], "texture": "#0"},
 				"west": {"uv": [5.375, 3.5, 6.75, 4.75], "texture": "#0"},
+				"up": {"uv": [0, 1.375, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 1.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fish tank",
+			"from": [4, 3, 0],
+			"to": [4, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1.625], "texture": "#0"},
+				"east": {"uv": [5.375, 5.125, 4, 6.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 1.625], "texture": "#0"},
+				"west": {"uv": [5.375, 3.5, 4, 5.125], "texture": "#0"},
+				"up": {"uv": [0, 1.375, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 1.375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fish tank",
+			"from": [6, 3, 0],
+			"to": [6, 13, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 1.25], "texture": "#0"},
+				"east": {"uv": [6.75, 3.5, 5.375, 4.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 1.25], "texture": "#0"},
+				"west": {"uv": [3.375, 5.25, 2, 6.5], "texture": "#0"},
 				"up": {"uv": [0, 1.375, 0, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 0, 1.375], "texture": "#0"}
 			}
@@ -89,7 +117,7 @@
 			"name": "fish tank",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5]
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		}
 	]
 }

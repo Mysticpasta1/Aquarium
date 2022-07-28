@@ -7,6 +7,7 @@ import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.EnumProperty;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
@@ -29,11 +30,12 @@ public class AquariumBlockMultiGlass extends ConnectingBlock implements Waterlog
     public static final BooleanProperty SOUTHWEST = BooleanProperty.of("southwest");
     public static final BooleanProperty NORTHWEST = BooleanProperty.of("northwest");
     public static final BooleanProperty WATERLOGGED = StairsBlock.WATERLOGGED;
-    private WaterType type;
+    WaterType type;
+    public static final EnumProperty<WaterType> TYPE = EnumProperty.of("type", WaterType.class);
 
     public AquariumBlockMultiGlass(WaterType type, Settings settings) {
         super(0.5F, settings.nonOpaque().requiresTool().strength(0.5f));
-        setDefaultState(getDefaultState().with(NORTH, false).with(EAST, false).with(SOUTH, false).with(WEST, false).with(WATERLOGGED, false).with(FACING, Direction.NORTH).with(UP, false).with(DOWN, false));
+        setDefaultState(getDefaultState().with(NORTH, false).with(EAST, false).with(SOUTH, false).with(WEST, false).with(WATERLOGGED, false).with(FACING, Direction.NORTH).with(UP, false).with(DOWN, false).with(NORTHEAST, false).with(SOUTHEAST, false).with(SOUTHWEST, false).with(NORTHWEST, false).with(TYPE, type));
         this.type = type;
     }
 
@@ -44,7 +46,7 @@ public class AquariumBlockMultiGlass extends ConnectingBlock implements Waterlog
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(NORTH, EAST, WEST, SOUTH, DOWN, UP, SOUTHEAST, SOUTHWEST, NORTHEAST, NORTHWEST, WATERLOGGED, FACING);
+        builder.add(NORTH, EAST, WEST, SOUTH, DOWN, UP, SOUTHEAST, SOUTHWEST, NORTHEAST, NORTHWEST, WATERLOGGED, FACING, TYPE);
     }
 
     public BlockState getPlacementState(ItemPlacementContext context) {
@@ -75,6 +77,7 @@ public class AquariumBlockMultiGlass extends ConnectingBlock implements Waterlog
                 .with(EAST, !(east.getBlock() instanceof AquariumBlockMultiGlass))
                 .with(SOUTH, !(south.getBlock() instanceof AquariumBlockMultiGlass))
                 .with(WEST, !(west.getBlock() instanceof AquariumBlockMultiGlass))
+                .with(TYPE, type)
                 .with(NORTHEAST, (!(north.getBlock() instanceof AquariumBlockMultiGlass) || !(northeast.getBlock() instanceof AquariumBlockMultiGlass) || !(east.getBlock() instanceof AquariumBlockMultiGlass)))
                 .with(SOUTHEAST, (!(south.getBlock() instanceof AquariumBlockMultiGlass) || !(southeast.getBlock() instanceof AquariumBlockMultiGlass) || !(east.getBlock() instanceof AquariumBlockMultiGlass)))
                 .with(SOUTHWEST, (!(south.getBlock() instanceof AquariumBlockMultiGlass) || !(southwest.getBlock() instanceof AquariumBlockMultiGlass) || !(west.getBlock() instanceof AquariumBlockMultiGlass)))
@@ -106,6 +109,7 @@ public class AquariumBlockMultiGlass extends ConnectingBlock implements Waterlog
         BlockState southwest = level.getBlockState(southwestPos);
         BlockState northwest = level.getBlockState(northwestPos);
         (blockstate
+                .with(TYPE, type)
                 .with(NORTHEAST, (!(north.getBlock() instanceof AquariumBlockMultiGlass) || !(northeast.getBlock() instanceof AquariumBlockMultiGlass) || !(east.getBlock() instanceof AquariumBlockMultiGlass))))
                 .with(SOUTHEAST, (!(south.getBlock() instanceof AquariumBlockMultiGlass) || !(southeast.getBlock() instanceof AquariumBlockMultiGlass) || !(east.getBlock() instanceof AquariumBlockMultiGlass)))
                 .with(SOUTHWEST, (!(south.getBlock() instanceof AquariumBlockMultiGlass) || !(southwest.getBlock() instanceof AquariumBlockMultiGlass) || !(west.getBlock() instanceof AquariumBlockMultiGlass)))
@@ -152,6 +156,7 @@ public class AquariumBlockMultiGlass extends ConnectingBlock implements Waterlog
                 .with(EAST, !(east.getBlock() instanceof AquariumBlockMultiGlass))
                 .with(SOUTH, !(south.getBlock() instanceof AquariumBlockMultiGlass))
                 .with(WEST, !(west.getBlock() instanceof AquariumBlockMultiGlass))
+                .with(TYPE, type)
                 .with(NORTHEAST, (!(north.getBlock() instanceof AquariumBlockMultiGlass) || !(northeast.getBlock() instanceof AquariumBlockMultiGlass) || !(east.getBlock() instanceof AquariumBlockMultiGlass)))
                 .with(SOUTHEAST, (!(south.getBlock() instanceof AquariumBlockMultiGlass) || !(southeast.getBlock() instanceof AquariumBlockMultiGlass) || !(east.getBlock() instanceof AquariumBlockMultiGlass)))
                 .with(SOUTHWEST, (!(south.getBlock() instanceof AquariumBlockMultiGlass) || !(southwest.getBlock() instanceof AquariumBlockMultiGlass) || !(west.getBlock() instanceof AquariumBlockMultiGlass)))

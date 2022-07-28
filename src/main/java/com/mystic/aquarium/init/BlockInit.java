@@ -1,10 +1,7 @@
 package com.mystic.aquarium.init;
 
 import com.mystic.aquarium.Aquarium;
-import com.mystic.aquarium.block.AquariumBlock;
-import com.mystic.aquarium.block.AquariumBlockMulti;
-import com.mystic.aquarium.block.AquariumBlockMultiGlass;
-import com.mystic.aquarium.block.WaterType;
+import com.mystic.aquarium.block.*;
 import com.mystic.aquarium.tabs.AquaItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -21,8 +18,10 @@ public class BlockInit {
     public static AquariumBlock FRESH_WATER_AQUARIUM = registerBlock("fresh_water_aquarium", new AquariumBlock(WaterType.Fresh));
     public static AquariumBlockMulti SALT_WATER_AQUARIUM_MULTI = registerBlock("salt_water_aquarium_multi", new AquariumBlockMulti(WaterType.Salt, FabricBlockSettings.of(Material.GLASS)));
     public static AquariumBlockMulti FRESH_WATER_AQUARIUM_MULTI = registerBlock("fresh_water_aquarium_multi", new AquariumBlockMulti(WaterType.Fresh, FabricBlockSettings.of(Material.GLASS)));
-    public static AquariumBlockMultiGlass SALT_WATER_AQUARIUM_MULTI_GLASS = registerBlock("salt_water_aquarium_multi_glass", new AquariumBlockMultiGlass(WaterType.Salt, FabricBlockSettings.of(Material.GLASS)));
-    public static AquariumBlockMultiGlass FRESH_WATER_AQUARIUM_MULTI_GLASS = registerBlock("fresh_water_aquarium_multi_glass", new AquariumBlockMultiGlass(WaterType.Fresh, FabricBlockSettings.of(Material.GLASS)));
+    public static AquariumBlockMultiFlushed FRESH_WATER_AQUARIUM_MULTI_GLASS_FLUSH = registerBlock("fresh_water_aquarium_multi_flushed", new AquariumBlockMultiFlushed(WaterType.Fresh, FabricBlockSettings.of(Material.GLASS)));
+    public static AquariumBlockMultiFlushed SALT_WATER_AQUARIUM_MULTI_GLASS_FLUSH = registerBlock("salt_water_aquarium_multi_flushed", new AquariumBlockMultiFlushed(WaterType.Salt, FabricBlockSettings.of(Material.GLASS)));
+    public static AquariumBlockMultiGlassNonFlush SALT_WATER_AQUARIUM_MULTI_GLASS_NONFLUSH = registerBlock("salt_water_aquarium_multi_glass", new AquariumBlockMultiGlassNonFlush(WaterType.Salt, FabricBlockSettings.of(Material.GLASS)));
+    public static AquariumBlockMultiGlassNonFlush FRESH_WATER_AQUARIUM_MULTI_GLASS_NONFLUSH = registerBlock("fresh_water_aquarium_multi_glass", new AquariumBlockMultiGlassNonFlush(WaterType.Fresh, FabricBlockSettings.of(Material.GLASS)));
 
     public static void init() {
 

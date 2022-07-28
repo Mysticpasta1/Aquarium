@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "minecraft:block/glass",
+		"particle": "minecraft:block/glass"
+	},
+	"elements": [
+		{
+			"name": "east",
+			"from": [15, 0, 1],
+			"to": [16, 16, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"south": {"uv": [15, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"up": {"uv": [15, 1, 16, 15], "texture": "#0"},
+				"down": {"uv": [0, 1, 1, 15], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "aquarium:blocks/tank_glass",
+		"particle": "aquarium:blocks/tank_glass"
+	},
+	"elements": [
+		{
+			"name": "south",
+			"from": [1, 0, 15],
+			"to": [15, 16, 16],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"south": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"west": {"uv": [15, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [1, 15, 15, 16], "texture": "#0"},
+				"down": {"uv": [1, 15, 15, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

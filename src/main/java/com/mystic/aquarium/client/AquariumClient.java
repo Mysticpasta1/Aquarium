@@ -18,8 +18,6 @@ public class AquariumClient {
     public static void onInitializeClient(FMLClientSetupEvent event) {
         // This code runs on the client side.
         registerBlockRenderLayers(RenderType.cutout(),
-                BlockInit.SALT_WATER_AQUARIUM.get(),
-                BlockInit.FRESH_WATER_AQUARIUM.get(),
                 BlockInit.FRESH_WATER_AQUARIUM_MULTI.get(),
                 BlockInit.SALT_WATER_AQUARIUM_MULTI.get(),
                 BlockInit.FRESH_WATER_AQUARIUM_MULTI_FLUSH.get(),
@@ -28,6 +26,9 @@ public class AquariumClient {
                 BlockInit.FRESH_WATER_AQUARIUM_MULTI_GLASS_FLUSH.get(),
                 BlockInit.SALT_WATER_AQUARIUM_MULTI_GLASS_NONFLUSH.get(),
                 BlockInit.FRESH_WATER_AQUARIUM_MULTI_GLASS_NONFLUSH.get());
+        registerBlockRenderLayers(RenderType.translucent(),
+                BlockInit.SALT_WATER_AQUARIUM.get(),
+                BlockInit.FRESH_WATER_AQUARIUM.get());
     }
 
     private static void registerBlockRenderLayers(RenderType layer, Block... blocks) {

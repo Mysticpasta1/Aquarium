@@ -43,7 +43,7 @@ public class AquariumBlockMultiGlass extends AbstractGlassBlock implements Simpl
 
     public AquariumBlockMultiGlass(WaterType type, Properties settings) {
         super(settings.noOcclusion().requiresCorrectToolForDrops().strength(0.5f));
-        this.defaultBlockState().setValue(NORTH, false).setValue(EAST, false).setValue(SOUTH, false).setValue(WEST, false).setValue(WATERLOGGED, false).setValue(UP, false).setValue(DOWN, false).setValue(NORTHEAST, false).setValue(SOUTHEAST, false).setValue(SOUTHWEST, false).setValue(NORTHWEST, false).setValue(TYPE, type).setValue(FACING, Direction.NORTH);
+        this.registerDefaultState(this.getStateDefinition().any().setValue(NORTH, false).setValue(EAST, false).setValue(SOUTH, false).setValue(WEST, false).setValue(WATERLOGGED, false).setValue(UP, false).setValue(DOWN, false).setValue(NORTHEAST, false).setValue(SOUTHEAST, false).setValue(SOUTHWEST, false).setValue(NORTHWEST, false).setValue(TYPE, type).setValue(FACING, Direction.NORTH));
         this.type = type;
     }
 
@@ -76,8 +76,9 @@ public class AquariumBlockMultiGlass extends AbstractGlassBlock implements Simpl
         BlockState southeast = level.getBlockState(southeastPos);
         BlockState southwest = level.getBlockState(southwestPos);
         BlockState northwest = level.getBlockState(northwestPos);
-        return defaultBlockState()
-                .setValue(UP, this.defaultBlockState().getValue(UP))
+        return getStateDefinition().any()
+                .setValue(FACING, context.getHorizontalDirection().getCounterClockWise())
+                .setValue(UP, this.getStateDefinition().any().getValue(UP))
                 .setValue(DOWN, !(below.getBlock() instanceof AquariumBlockMultiGlass))
                 .setValue(NORTH, !(north.getBlock() instanceof AquariumBlockMultiGlass))
                 .setValue(EAST, !(east.getBlock() instanceof AquariumBlockMultiGlass))
@@ -159,7 +160,7 @@ public class AquariumBlockMultiGlass extends AbstractGlassBlock implements Simpl
         level.scheduleTick(blockpos, this, 1);
         return blockstate.
                 setValue(UP, blockstate.getValue(UP)).
-                setValue(DOWN, !(below.getBlock() instanceof AquariumBlockMultiGlass) || below.getBlock() instanceof AquariumBlockMultiGlass && below.getValue(UP)).
+                setValue(DOWN, !(below.getBlock() instanceof AquariumBlockMultiGlass)).
                 setValue(NORTH, !(north.getBlock() instanceof AquariumBlockMultiGlass)).
                 setValue(EAST, !(east.getBlock() instanceof AquariumBlockMultiGlass)).
                 setValue(SOUTH, !(south.getBlock() instanceof AquariumBlockMultiGlass)).
@@ -192,8 +193,6 @@ public class AquariumBlockMultiGlass extends AbstractGlassBlock implements Simpl
             shape = Shapes.or(shape, box(0.0D, 0.0D, 15.0D, 1.0D, 16.0D, 16.0D));
         if (state.getValue(NORTHWEST))
             shape = Shapes.or(shape, box(0.0D, 0.0D, 0.0D, 1.0D, 16.0D, 1.0D));
-        if (shape == Shapes.empty())
-            shape = box(4.0D, 0.0D, 4.0D, 12.0D, 16.0D, 12.0D);
         return shape;
     }
 
@@ -218,8 +217,6 @@ public class AquariumBlockMultiGlass extends AbstractGlassBlock implements Simpl
             shape = Shapes.or(shape, box(0.0D, 0.0D, 15.0D, 1.0D, 16.0D, 16.0D));
         if (state.getValue(NORTHWEST))
             shape = Shapes.or(shape, box(0.0D, 0.0D, 0.0D, 1.0D, 16.0D, 1.0D));
-        if (shape == Shapes.empty())
-            shape = box(4.0D, 0.0D, 4.0D, 12.0D, 16.0D, 12.0D);
         return shape;
     }
 
@@ -244,8 +241,6 @@ public class AquariumBlockMultiGlass extends AbstractGlassBlock implements Simpl
             shape = Shapes.or(shape, box(0.0D, 0.0D, 15.0D, 1.0D, 16.0D, 16.0D));
         if (state.getValue(NORTHWEST))
             shape = Shapes.or(shape, box(0.0D, 0.0D, 0.0D, 1.0D, 16.0D, 1.0D));
-        if (shape == Shapes.empty())
-            shape = box(4.0D, 0.0D, 4.0D, 12.0D, 16.0D, 12.0D);
         return shape;
     }
 }

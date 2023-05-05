@@ -1,7 +1,9 @@
 package com.mystic.aquarium.init;
 
+import com.mystic.aquarium.Aquarium;
 import com.mystic.aquarium.block.*;
 import com.mystic.aquarium.tabs.AquaItemGroup;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -12,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Properties;
 import java.util.function.Function;
 import java.util.function.Supplier;
 

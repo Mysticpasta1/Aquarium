@@ -2,57 +2,41 @@
   "multipart": [
     {
       "when": {
-        "AND": [
-          {
-            "down": "true",
-            "facing": "south"
-          }
-        ]
+        "down": "true",
+        "facing": "north"
       },
       "apply": {
-        "y": 180,
         "model": "aquarium:blocks/bottom_side_fish_tank"
       }
     },
     {
       "when": {
-        "AND": [
-          {
-            "down": "true",
-            "facing": "west"
-          }
-        ]
+        "down": "true",
+        "facing": "south"
       },
       "apply": {
-        "y": 270,
-        "model": "aquarium:blocks/bottom_side_fish_tank"
+        "model": "aquarium:blocks/bottom_side_fish_tank",
+        "y": 180
       }
     },
     {
       "when": {
-        "AND": [
-          {
-            "down": "true",
-            "facing": "east"
-          }
-        ]
+        "down": "true",
+        "facing": "west"
       },
       "apply": {
-        "y": 90,
-        "model": "aquarium:blocks/bottom_side_fish_tank"
+        "model": "aquarium:blocks/bottom_side_fish_tank",
+        "y": 270
       }
     },
     {
       "when": {
-        "AND": [
-          {
-            "down": "true",
-            "facing": "north"
-          }
-        ]
+        "down": "true",
+        "facing": "east"
       },
       "apply": {
-        "model": "aquarium:blocks/bottom_side_fish_tank"
+        "model": "aquarium:blocks/bottom_side_fish_tank",
+        "y": 90
       }
     },
     {

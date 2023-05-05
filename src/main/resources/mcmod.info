@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "aquarium",
+    "name": "Aquarium",
+    "description": "Fish Tanks done right",
+    "version": "1.19.2-1.0.0-forge",
+    "mcversion": "1.19.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Mysticpasta1, Waterpicker"],
+    "credits": "",
+    "logoFile": "icon.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

@@ -1,9 +1,9 @@
 package com.mystic.aquarium.block;
 
-import net.minecraft.block.Waterloggable;
+import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 
-public class AquariumBlockMultiGlassFlushed extends AquariumBlockMultiGlass implements Waterloggable {
-    public AquariumBlockMultiGlassFlushed(WaterType type, Settings settings) {
+public class AquariumBlockMultiGlassFlushed extends AquariumBlockMultiGlass implements SimpleWaterloggedBlock {
+    public AquariumBlockMultiGlassFlushed(WaterType type, Properties settings) {
         super(type, settings);
     }
 }

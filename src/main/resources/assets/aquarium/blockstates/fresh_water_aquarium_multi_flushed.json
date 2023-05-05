@@ -2,6 +2,157 @@
   "multipart": [
     {
       "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "south"
+          }
+        ]
+      },
+      "apply": {
+        "y": 180,
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "west"
+          }
+        ]
+      },
+      "apply": {
+        "y": 270,
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "east"
+          }
+        ]
+      },
+      "apply": {
+        "y": 90,
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "north"
+          }
+        ]
+      },
+      "apply": {
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "type": "fresh"
+      },
+      "apply": {
+        "model": "minecraft:block/water"
+      }
+    },
+    {
+      "when": {
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/water"
+      }
+    },
+    {
+      "when": {
+        "up": true
+      },
+      "apply": {
+        "model": "minecraft:block/air"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_north_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_east_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_south_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_west_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "northeast": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_northeast_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "southeast": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_southeast_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "southwest": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_southwest_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "northwest": "true"
+      },
+      "apply": {
+        "model": "aquarium:blocks/fish_tank_northwest_flush",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
         "down": "true"
       },
       "apply": {

@@ -1,16 +1,16 @@
 package com.mystic.aquarium;
 
 import com.mystic.aquarium.init.BlockInit;
-import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-public class Aquarium implements ModInitializer {
-	@Override
-	public void onInitialize() {
-		BlockInit.init();
-	}
+@Mod("aquarium")
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public class Aquarium {
 
-	public static Identifier id(String name) {
-		return new Identifier("aquarium", name);
+	public Aquarium() {
+		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		BlockInit.init(bus);
 	}
 }

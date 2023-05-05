@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "aquarium:items/fresh_water_aquarium"
+  }
+}

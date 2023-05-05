@@ -1,0 +1,31 @@
+modLoader="javafml" 
+loaderVersion="[43,)" 
+license="LGPLv3"
+issueTrackerURL=""
+
+[[mods]] 
+modId="aquarium"
+version="1.19.2-1.0.0-forge"
+displayName="Aquarium"
+displayURL=""
+logoFile= "icon.png"
+credits=''''''
+authors="Mysticpasta1, WaterPicker"
+description='''
+Fish Tanks done right
+'''
+
+# Base
+[[dependencies.aquarium]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aquarium]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2, 1.20)"
+    ordering="NONE"
+    side="BOTH"

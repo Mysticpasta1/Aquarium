@@ -1,11 +1,17 @@
 package com.mystic.aquarium.tabs;
 
 import com.mystic.aquarium.init.BlockInit;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.Identifier;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 
 public class AquaItemGroup {
-    public static final ItemGroup CREATIVE_TAB_AQUARIUM = FabricItemGroupBuilder.create(new Identifier("aquarium")).icon(() -> new ItemStack(BlockInit.FRESH_WATER_AQUARIUM)).build();
+    public static final CreativeModeTab MAIN = new CreativeModeTab(CreativeModeTab.getGroupCountSafe(), "aquarium.general") {
+        @Override
+        public ItemStack makeIcon() {
+            return BlockInit.SALT_WATER_AQUARIUM.get().asItem().getDefaultInstance();
+        }
+    };
+
+    public static void init(){
+    }
 }

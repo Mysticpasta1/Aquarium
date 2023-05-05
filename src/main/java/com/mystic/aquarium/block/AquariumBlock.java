@@ -1,37 +1,26 @@
 package com.mystic.aquarium.block;
 
-import net.minecraft.block.*;
-import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.state.StateManager;
-import net.minecraft.util.BlockMirror;
-import net.minecraft.util.BlockRotation;
-import net.minecraft.util.math.Direction;
+import net.minecraft.core.Direction;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.SimpleWaterloggedBlock;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.material.Material;
 
-import static net.minecraft.block.ChainBlock.WATERLOGGED;
+import static net.minecraft.world.level.block.ChainBlock.WATERLOGGED;
 
-public class AquariumBlock extends FacingBlock implements Waterloggable {
+public class AquariumBlock extends HorizontalDirectionalBlock implements SimpleWaterloggedBlock {
     private WaterType type;
 
     public AquariumBlock(WaterType type) {
-        super(AbstractBlock.Settings.of(Material.GLASS).nonOpaque().requiresTool().strength(0.5f));
-        setDefaultState(getDefaultState().with(WATERLOGGED, false).with(FACING, Direction.NORTH));
+        super(Properties.of(Material.GLASS).noOcclusion().requiresCorrectToolForDrops().strength(0.5f));
+        this.defaultBlockState().setValue(WATERLOGGED, false).setValue(FACING, Direction.NORTH);
         this.type = type;
     }
 
-    public BlockState getPlacementState(ItemPlacementContext ctx) {
-        return this.getDefaultState().with(FACING, ctx.getPlayerFacing());
-    }
-
-    public BlockState rotate(BlockState state, BlockRotation rotation) {
-        return state.with(FACING, rotation.rotate(state.get(FACING)));
-    }
-
-    public BlockState mirror(BlockState state, BlockMirror mirror) {
-        return state.rotate(mirror.getRotation(state.get(FACING)));
-    }
-
     @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        super.appendProperties(builder.add(WATERLOGGED).add(FACING));
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        builder.add(WATERLOGGED).add(FACING);
     }
 }

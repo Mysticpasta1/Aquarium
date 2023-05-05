@@ -2,10 +2,81 @@
   "multipart": [
     {
       "when": {
-        "down": "true"
+        "AND": [
+          {
+            "down": "true",
+            "facing": "south"
+          }
+        ]
+      },
+      "apply": {
+        "y": 180,
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "west"
+          }
+        ]
+      },
+      "apply": {
+        "y": 270,
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "east"
+          }
+        ]
+      },
+      "apply": {
+        "y": 90,
+        "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "AND": [
+          {
+            "down": "true",
+            "facing": "north"
+          }
+        ]
       },
       "apply": {
         "model": "aquarium:blocks/bottom_side_fish_tank"
+      }
+    },
+    {
+      "when": {
+        "type": "salt"
+      },
+      "apply": {
+        "model": "minecraft:block/water"
+      }
+    },
+    {
+      "when": {
+        "waterlogged": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/water"
+      }
+    },
+    {
+      "when": {
+        "up": true
+      },
+      "apply": {
+        "model": "minecraft:block/air"
       }
     },
     {

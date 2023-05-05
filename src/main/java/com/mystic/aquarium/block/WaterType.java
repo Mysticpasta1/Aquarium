@@ -1,13 +1,13 @@
 package com.mystic.aquarium.block;
 
-import net.minecraft.util.StringIdentifiable;
+import net.minecraft.util.StringRepresentable;
 
-public enum WaterType implements StringIdentifiable {
+public enum WaterType implements StringRepresentable {
     Fresh,
     Salt;
 
     @Override
-    public String asString() {
+    public String getSerializedName() {
         if(this == Fresh) {
             return "fresh";
         } else {
